@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'Abel', sans-serif;
+    src: url('./assets/fonts/Abel-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'House of Montague';
+    src: url('./assets/fonts/HouseOfMontagueDEMO.otf');
+}
+
+:root {
+    /* COLORS */
+    --bg-color: #FDFDFD;
+    --links: #2E2E2E;
+    --primary-text: #000;
+
+    /* FONTS */
+    --text: 'Abel', sans-serif;
+    --title: 'House of Montague'
+}
