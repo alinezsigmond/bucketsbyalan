@@ -2,11 +2,37 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link 
+      rel="icon" 
+      id="favicon" 
+      type="image/svg+xml" 
+      media="(prefers-color-scheme: light)"
+      href="./src/assets/img/logo/dark-icon.svg"
+    />
+    <link
+      rel="icon"
+      id="favicon"
+      type="image/svg+xml"
+      media="(prefers-color-scheme: dark)"
+      href="./src/assets/img/logo/light-icon.svg"
+    />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + React</title>
+    <title>Buckets by Alan</title>
   </head>
   <body>
+    <script>
+      const favIcon = document.getElementById('favicon');
+      const isDark = window.matchMedia("(prefers-color-scheme: dark)");
+
+      function changeFavicon() {
+        if (isDark.matches) {
+          favicon.href='./src/assets/img/logo/light-icon.svg';
+        } else {
+          favicon.href='./src/assets/img/logo/light-icon.svg';
+        }
+      }
+      isDark.addEventListener("change", changeFavicon);
+    </script>
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
   </body>
