@@ -1,0 +1,13 @@
+.title {
+    width: 100%;
+    position: absolute;
+    top: 275px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    font-family: var(--title);
+    text-align: center;
+    font-size: 36px;
+}
