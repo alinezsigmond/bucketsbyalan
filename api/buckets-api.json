@@ -2,35 +2,35 @@
     {
         "id": 1,
         "title": "Among Us",
-        "price": "£30",
+        "price": 30,
         "img": "../../../api/img/amongus-bucket.jpg",
         "alt": "Among Us exclusive bucket"
     },
     {
         "id": 2,
         "title": "Bomberman",
-        "price": "£55",
+        "price": 55,
         "img": "../../../api/img/bomberman-bucket.jpg",
         "alt": "Bomberman exclusive bucket"
     },
     {
         "id": 3,
         "title": "Cuphead",
-        "price": "£45",
+        "price": 45,
         "img": "../../../api/img/cuphead-bucket.jpg",
         "alt": "Cuphead exclusive bucket"           
     },
     {
         "id": 4,
         "title": "DOOM",
-        "price": "£80",
+        "price": 80,
         "img": "../../../api/img/doom-bucket.jpg",
         "alt": "DOOM exclusive bucket"
     },
     {
         "id": 5,
         "title": "NieR: Automata",
-        "price": "£75",
+        "price": 75,
         "img": "../../../api/img/nier-bucket.jpg",
         "alt": "NieR: Automata exclusive bucket"
     }

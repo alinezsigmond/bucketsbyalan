@@ -7,7 +7,7 @@ export default function Item(props) {
             <div className="wrapper">
                 <div className="product-details">
                     <p className="item-title">{props.title}</p>
-                    <p className="item-price">{props.price}</p>
+                    <p className="item-price">£{props.price}</p>
                 </div>
                 <button className="add">Add to cart</button>
             </div>
