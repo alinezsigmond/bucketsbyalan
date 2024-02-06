@@ -6,7 +6,7 @@
     margin-right: auto;
 }
 
-h1 {
+.h1 {
     font-family: var(--title);
     text-align: center;
     font-size: 36px;
