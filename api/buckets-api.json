@@ -33,5 +33,12 @@
         "price": 75,
         "img": "../../../api/img/nier-bucket.jpg",
         "alt": "NieR: Automata exclusive bucket"
+    },
+    {
+        "id": 6,
+        "title": "Custom",
+        "price": 0,
+        "img": "../../../api/img/custom-bucket.jpg",
+        "alt": "Ask for your own custom bucket"
     }
 ]
