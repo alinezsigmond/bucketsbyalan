@@ -3,7 +3,7 @@ import Header from "../../components/Header/Header";
 import Title from "../../components/Title/Title";
 import Item from "../../components/item/Item";
 
-import products from '../../../api/buckets-api.json'
+import products from '../../../api/buckets/buckets-api.json'
 
 import './shop.css'
 
