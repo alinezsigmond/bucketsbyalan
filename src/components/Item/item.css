@@ -16,6 +16,8 @@
 .photo {
     margin-bottom: 3px;
     width: 151px;
+    height: 151px;
+    object-fit: cover;
 }
 
 .item-title {
