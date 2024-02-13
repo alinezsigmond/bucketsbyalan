@@ -46,15 +46,17 @@ export default function About() {
                         friends. He is also video production lead at Epic 
                         Games, creative director at <a 
                         href="https://allmaverick.com" 
-                        target="_blank">All Maverick</a>, and is a proud ambassador 
-                        for SpecialEffect.</p>
+                        target="_blank">All Maverick</a>, and a proud ambassador 
+                        for <a 
+                        href="https://www.specialeffect.org.uk/" 
+                        target="_blank">SpecialEffect.</a></p>
                     <p>This website was made as a joke by Pokemond (Aline Zsigmond), 
                         who happens to be searching for an opportunity as a front-end 
-                        developer, by the way. You can check this project on 
-                        her <a 
+                        developer, by the way. You can check the code for this website 
+                        on her <a 
                             href="https://github.com/alinezsigmond/bucketsbyalan"
                             target="_blank"
-                        > github</a></p>
+                        > github</a>.</p>
                     <p>And Hugh? Well, Hugh Raynor is a good friend.</p>
                 </section>
             <Footer />
