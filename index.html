@@ -1,11 +1,11 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link 
-      rel="icon" 
-      id="favicon" 
-      type="image/svg+xml" 
+    <link
+      rel="icon"
+      id="favicon"
+      type="image/svg+xml"
       media="(prefers-color-scheme: light)"
       href="./src/assets/img/logo/dark-icon.svg"
     />
@@ -21,14 +21,14 @@
   </head>
   <body>
     <script>
-      const favIcon = document.getElementById('favicon');
+      const favIcon = document.getElementById("favicon");
       const isDark = window.matchMedia("(prefers-color-scheme: dark)");
 
       function changeFavicon() {
         if (isDark.matches) {
-          favicon.href='./src/assets/img/logo/light-icon.svg';
+          favicon.href = "./src/assets/img/logo/light-icon.svg";
         } else {
-          favicon.href='./src/assets/img/logo/light-icon.svg';
+          favicon.href = "./src/assets/img/logo/light-icon.svg";
         }
       }
       isDark.addEventListener("change", changeFavicon);
