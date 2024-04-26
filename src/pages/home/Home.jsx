@@ -1,15 +1,14 @@
-import Footer from '../../components/Footer/Footer'
-import Header from '../../components/Header/Header'
-import Title from '../../components/Title/Title'
-import './home.css'
+import Footer from '../../components/Footer'
+import Header from '../../components/Header'
+import Title from '../../components/Title'
 
 export default function Home() {
-    return(
+    return (
         <>
             <Header />
             <Title text='Homepage' />
             <div className="container">
-            
+
             </div>
             <Footer />
         </>
