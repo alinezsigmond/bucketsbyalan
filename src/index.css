@@ -2,13 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  font-family: var(--primary-text-color);
-  color: var(--primary-text-color);
-  background-color: var(--primary-bg-color);
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@layer base {
+  @font-face {
+    font-family: "Abel";
+    src: local("Abel-Regular"),
+      url(./assets/fonts/Abel-Regular.ttf) format("truetype");
+  }
+  @font-face {
+    font-family: "House of Montague";
+    src: local("HouseOfMontagueDEMO"),
+      url(./assets/fonts/HouseOfMontagueDEMO.otf) format("opentype");
+  }
 }
