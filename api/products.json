@@ -1,0 +1,106 @@
+[
+    {
+        "id": 1,
+        "title": "Among Us",
+        "price": 30,
+        "category": "bucket",
+        "img": "../../../api/img/amongus-bucket.jpg",
+        "alt": "Among Us exclusive bucket"
+    },
+    {
+        "id": 2,
+        "title": "Bomberman",
+        "price": 55,
+        "category": "bucket",
+        "img": "../../../api/img/bomberman-bucket.jpg",
+        "alt": "Bomberman exclusive bucket"
+    },
+    {
+        "id": 3,
+        "title": "Cuphead",
+        "price": 45,
+        "category": "bucket",
+        "img": "../../../api/img/cuphead-bucket.jpg",
+        "alt": "Cuphead exclusive bucket"
+    },
+    {
+        "id": 4,
+        "title": "DOOM",
+        "price": 80,
+        "category": "bucket",
+        "img": "../../../api/img/doom-bucket.jpg",
+        "alt": "DOOM exclusive bucket"
+    },
+    {
+        "id": 5,
+        "title": "NieR: Automata",
+        "price": 75,
+        "category": "bucket",
+        "img": "../../../api/img/nier-bucket.jpg",
+        "alt": "NieR: Automata exclusive bucket"
+    },
+    {
+        "id": 6,
+        "title": "Hoodie",
+        "price": 50,
+        "category": "merch",
+        "img": "../../../api/img/hoodie-front.jpg",
+        "alt": "Buckets by Alan logo black hoodie"
+    },
+    {
+        "id": 7,
+        "title": "iPhone 15 Pro Case",
+        "price": 35,
+        "category": "merch",
+        "img": "../../../api/img/iPhone-case.jpg",
+        "alt": "Black iPhone 15 Pro Case"
+    },
+    {
+        "id": 8,
+        "title": "Black keychain",
+        "price": 5,
+        "category": "merch",
+        "img": "../../../api/img/keychain-black.jpg",
+        "alt": "Buckets by Alan logo black keychain"
+    },
+    {
+        "id": 9,
+        "title": "White keychain",
+        "price": 5,
+        "category": "merch",
+        "img": "../../../api/img/keychain-white.jpg",
+        "alt": "Buckets by Alan logo white keychain"
+    },
+    {
+        "id": 10,
+        "title": "Dark pin button",
+        "price": 5,
+        "category": "merch",
+        "img": "../../../api/img/pin-button-dark.jpg",
+        "alt": "Dark pin button Buckets by Alan logo"
+    },
+    {
+        "id": 11,
+        "title": "Light pin button",
+        "price": 5,
+        "category": "merch",
+        "img": "../../../api/img/pin-button-light.jpg",
+        "alt": "Light pin button Buckets by Alan logo"
+    },
+    {
+        "id": 12,
+        "title": "White shirt",
+        "price": 25,
+        "category": "merch",
+        "img": "../../../api/img/shirt-thumb.jpg",
+        "alt": "Buckets by Alan logo shirt"
+    },
+    {
+        "id": 13,
+        "title": "Black cap",
+        "price": 20,
+        "category": "merch",
+        "img": "../../../api/img/snapback-cap-black.jpg",
+        "alt": "Black snapback cap"
+    }
+]
