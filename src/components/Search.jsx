@@ -1,4 +1,4 @@
-import data from '../../api/buckets/buckets-api.json'
+import data from '../../api/products.json'
 import { useState } from 'react';
 
 export default function SearchBar() {
