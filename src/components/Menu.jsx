@@ -1,8 +1,6 @@
 import { Link } from 'react-router-dom'
 
 export default function Menu() {
-    const menu = document.getElementById('menu-mobile');
-    console.log(menu);
     return (
         <div
             id='menu-mobile'
