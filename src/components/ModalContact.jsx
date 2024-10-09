@@ -10,15 +10,15 @@ export default function Modal({ isOpen }) {
                 id="modal"
             >
                 <div
-                    className="w-11/12 h-4/6 bg-[#FDFDFD] flex flex-col justify-center items-center p-3 rounded-lg
-                    lg:w-[600px] lg:h-[400px] lg:justify-evenly lg:p-5"
+                    className="w-11/12 h-96 bg-[#FDFDFD] flex flex-col justify-center items-center p-10 rounded-lg
+                    lg:w-[500px] lg:h-80 lg:justify-evenly lg:p-7"
                 >
                     <p className="font-title text-4xl mb-10">Hold up!</p>
                     <p className="text-center font-text">Since this is a joke, I didn't
                         bother making this page functional. Please note we won't
                         actually receive any e-mails from you.</p>
                     <button onClick={() => setOpen(false)} className="bg-black text-[#D9D9D9] w-36 h-10 font-text my-6">Got it, you're lazy</button>
-                    <p className="text-center font-text text-xs mt-2">* Dear recruiters, if you check
+                    <p className="text-center font-text text-xs mt-4">* Dear recruiters, if you check
                         the console you'll see I do know how forms work. Thank you.</p>
                 </div>
             </div>
