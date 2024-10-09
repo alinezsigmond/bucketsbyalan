@@ -9,7 +9,7 @@ export default function About() {
             <Header />
             <Title title='About us' />
             <section className="flex justify-center font-text text-center">
-                <p className="pb-7 w-[85%] lg:w-[50%]">Buckets by Alan redefines the ordinary, elevating
+                <p className="pb-7 w-[85%] lg:w-1/2">Buckets by Alan redefines the ordinary, elevating
                     the humble bucket to a symbol of opulence and
                     sophistication. Crafted from the finest materials
                     by an extremely skilled artisan (you guessed it,
@@ -24,9 +24,9 @@ export default function About() {
                     can be a canvas for luxury.</p>
             </section>
 
-            <section className="font-text text-center bg-[#F1F1F1] py-5">
+            <section className="font-text text-center bg-black/5 py-5">
                 <Title title='No, but really?' />
-                <p className="pb-7 w-[85%] m-auto lg:w-[50%]">Ok, you got me. Buckets by Alan started out as a joke
+                <p className="pb-7 w-[85%] m-auto lg:w-1/2">Ok, you got me. Buckets by Alan started out as a joke
                     on Mediatonic’s livestreams on Twitch back in 2021.
                     While streaming and showing new costumes and collabs
                     on the popular game Fall Guys, streamer Alan Campbell
@@ -38,7 +38,7 @@ export default function About() {
 
             <section className="font-text text-center">
                 <Title title='Ok, then who really are you?' />
-                <p className="pb-3 w-[85%] m-auto lg:w-[50%]">Alan Campbell still occasionally streams on <a
+                <p className="pb-3 w-[85%] m-auto lg:w-1/2">Alan Campbell still occasionally streams on <a
                     href="http://twitch.tv/allmavericklive"
                     className="underline"
                     target="_blank">Twitch</a> on his own or joined by his
