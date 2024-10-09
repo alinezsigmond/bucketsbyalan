@@ -1,3 +1,4 @@
+import { ToastContainer } from 'react-toastify';
 import Error404 from './pages/404/404';
 import About from './pages/about/About';
 import ContactUs from './pages/contact-us/ContactUs';
@@ -11,6 +12,7 @@ function App() {
 
   return (
     <BrowserRouter>
+      <ToastContainer />
       <Routes>
         <Route path="/" exact element={<Home />} />
         <Route path="/shop" element={<Shop />} />
