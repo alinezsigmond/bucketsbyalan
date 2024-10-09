@@ -14,7 +14,7 @@ export default function Item(props) {
                     data-name={props.title}
                     data-price={props.price}
                     onClick={() => {
-                        addToCart(props.title, props.price);
+                        addToCart(props.title, props.price, props.img, props.alt);
                     }}
                 >Add to cart</button>
             </div>
