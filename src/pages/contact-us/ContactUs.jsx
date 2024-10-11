@@ -58,7 +58,7 @@ export default function ContactUs() {
                     />
                     <button
                         onClick={() => console.log(fullMessage)}
-                        className="bg-[#2B2F2E] text-[#FDFDFD] text-base h-9 mt-5 rounded-md mb-12"
+                        className="bg-[#2B2F2E] hover:bg-teal-800 text-[#FDFDFD] text-base h-9 mt-5 rounded-md mb-12"
                     >
                         Send
                     </button>
